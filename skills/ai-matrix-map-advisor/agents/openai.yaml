@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Matrix Map Advisor"
+  short_description: "Product and monetization advice for Matrix Map"
+  default_prompt: "Use $ai-matrix-map-advisor to evaluate AI Matrix Map and recommend the best product, monetization, and roadmap decision."

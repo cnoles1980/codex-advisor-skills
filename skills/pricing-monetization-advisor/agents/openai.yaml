@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing And Monetization Advisor"
+  short_description: "Pricing, packaging, and monetization advice"
+  default_prompt: "Use $pricing-monetization-advisor to evaluate how this product should make money and what pricing model to test first."

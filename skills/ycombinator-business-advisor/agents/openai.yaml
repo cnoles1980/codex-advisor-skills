@@ -1,0 +1,4 @@
+interface:
+  display_name: "Y Combinator Business Advisor"
+  short_description: "YC-style startup and business judgment"
+  default_prompt: "Use $ycombinator-business-advisor to evaluate this startup idea like a strong YC partner would."

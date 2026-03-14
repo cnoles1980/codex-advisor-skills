@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Manager Advisor"
+  short_description: "PM-style product evaluation and decisions"
+  default_prompt: "Use $product-manager-advisor to evaluate this product direction and recommend the best next move."

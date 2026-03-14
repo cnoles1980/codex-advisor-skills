@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Spec Critic"
+  short_description: "Pressure-test PRDs and feature specs"
+  default_prompt: "Use $product-spec-critic to review this PRD and tell me what is missing, risky, or poorly defined."
