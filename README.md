@@ -1,6 +1,6 @@
 # Codex Advisor Skills
 
-Opinionated Codex skills for product strategy, PRD critique, monetization decisions, startup judgment, and product-specific advisory workflows.
+Opinionated Codex skills for product strategy, PRD critique, monetization decisions, and startup judgment.
 
 These skills are built for people who want more than generic brainstorming. They are designed to push on assumptions, clarify tradeoffs, and produce practical next-step recommendations.
 
@@ -12,7 +12,6 @@ This repo is useful if you use Codex for:
 - feature and PRD review
 - pricing and monetization strategy
 - startup idea evaluation
-- portfolio-specific product advisory work
 
 ## Included Skills
 
@@ -58,19 +57,6 @@ YC-style startup judgment for:
 - distribution realism
 - venture-scale potential
 
-### `ai-matrix-map-advisor`
-
-A product-specific advisor for AI Matrix Map.
-
-This one is intentionally specialized. It focuses on:
-
-- market-map product strategy
-- taxonomy quality
-- source trust and freshness
-- editorial workflows
-- premium intelligence layers
-- roadmap and monetization decisions
-
 ## Repo Structure
 
 ```text
@@ -79,7 +65,6 @@ skills/
   product-spec-critic/
   pricing-monetization-advisor/
   ycombinator-business-advisor/
-  ai-matrix-map-advisor/
 ```
 
 Each skill contains:
@@ -116,10 +101,6 @@ Use $pricing-monetization-advisor to tell me whether this product should be mone
 Use $ycombinator-business-advisor to evaluate whether this is a real startup idea or just an interesting project, and tell me what the wedge should be.
 ```
 
-```text
-Use $ai-matrix-map-advisor to evaluate AI Matrix Map and recommend what belongs in the public map, what belongs in a premium layer, and what not to build yet.
-```
-
 ## Design Philosophy
 
 These skills are intentionally:
@@ -138,9 +119,25 @@ You can use this repo as-is or as a template:
 
 - copy a skill and adapt its `description` to change trigger behavior
 - add `references/` files for product- or company-specific context
-- keep general-purpose skills general, and isolate specialized context into dedicated skills
+- keep general-purpose skills general, and isolate specialized context into dedicated private skills when needed
 
-That pattern is used here on purpose: most skills are broadly reusable, while `ai-matrix-map-advisor` is intentionally specific.
+## Contributing
+
+Contributions are welcome, especially:
+
+- new advisor-style skills
+- tighter trigger descriptions
+- clearer examples
+- better specialized references
+- improvements that make the advice more practical and less generic
+
+If you contribute:
+
+- keep general-purpose skills broadly reusable
+- isolate company- or product-specific context into dedicated skills or `references/`
+- prefer concise, high-signal instructions over long prompt walls
+- include realistic example prompts when they help clarify usage
+- validate skill structure before opening a PR if you use the Codex skill validator locally
 
 ## License
 
