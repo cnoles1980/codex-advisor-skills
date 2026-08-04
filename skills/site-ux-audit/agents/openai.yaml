@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site UX Audit"
+  short_description: "Test safe site flows and produce evidence-backed UX recommendations"
+  default_prompt: "Use $site-ux-audit to audit this site's reachable user experience, record evidence, and prioritize the most useful fixes."
